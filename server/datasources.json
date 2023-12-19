@@ -3,11 +3,11 @@
     "name": "db",
     "connector": "memory"
   },
-  "mysqlDs": {
-    "name": "mysqlDs",
-    "connector": "mysql",
+  "mypostgres": {
+    "name": "mypostgres",
+    "connector": "postgresql",
     "host": "demo.strongloop.com",
-    "port": 3306,
+    "port": 5432,
     "database": "getting_started",
     "username": "demo",
     "password": "L00pBack"
